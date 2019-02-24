@@ -1,7 +1,4 @@
 function findNeedle(words) {
-        var myWordSearch = words.indexOf("needle");
-    return myWordSearch;
-
+        return words.indexOf("needle");
 }
-
 module.exports = findNeedle;
