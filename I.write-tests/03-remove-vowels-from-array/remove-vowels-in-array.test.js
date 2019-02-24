@@ -5,7 +5,7 @@ test('remove vowels from all words in array', function () {
     const expected = ["rn", "tz", "dnl"]
     // Act
 
-    var words = ["Irina", "Etza", "Daniel", "clement"];
+    var words = ["Irina", "Etza", "Daniel"];
     var result = removeVowelsForWords(words);
     // Assert
 
