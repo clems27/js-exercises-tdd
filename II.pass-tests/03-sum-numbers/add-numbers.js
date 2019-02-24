@@ -1,9 +1,5 @@
-function addNumbers(numbers) {
-    var number = 0;
-    for(var i =0; i < numbers.length; i++){
-        number +=numbers[i];
-
-    }
-    return number;
+function addAllnumbers(numbers) {
+  const number = (accumulator, currentValue) => accumulator + currentValue;
+  return numbers.reduce(number);
 }
-module.exports = addNumbers;
+module.exports = addAllnumbers;
